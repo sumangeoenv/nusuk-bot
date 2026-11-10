@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
 # It reads the token securely from Render's Environment Variables
-BOT_TOKEN = os.environ.get("9011662464:AAFRcqfovgKKhMRB3fiBfG8L6Irj9aFREi0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 
 async def handle_incoming_source(
